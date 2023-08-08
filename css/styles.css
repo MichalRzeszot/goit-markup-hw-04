@@ -127,12 +127,32 @@ body {
   height: 112px;
   flex-shrink: 0;
 }
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 16px;
+}
+.social-media-container {
+  width: 208px;
+}
 .portfolio-buttons-layout {
   display: flex;
   align-items: flex-start;
   gap: 24px;
   justify-content: center;
   margin-bottom: 72px;
+}
+.portfolio-image-hover:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.portfolio-button-hover:hover,
+.portfolio-button-hover:focus {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 .logo {
   font-size: 18px;
@@ -298,6 +318,9 @@ body {
   border: 1px solid rgba(142, 143, 153, 1);
   border-radius: 4px;
 }
+.customers-icons:hover {
+  color: #404bbf;
+}
 .img-heading {
   font-size: 20px;
   line-height: 1.2;
@@ -322,7 +345,6 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
   color: var(--h1-and-ourteam-images-bacground-color);
-  text-align: center;
 }
 .footer-logo {
   font-size: 18px;
