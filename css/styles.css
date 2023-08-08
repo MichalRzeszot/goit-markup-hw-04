@@ -112,7 +112,6 @@ body {
 }
 .team {
   background-color: var(--cloud-background-color);
-  width: 1440px;
   margin: 0 auto;
 }
 .team-img-layout {
@@ -135,6 +134,7 @@ body {
 }
 .social-media-container {
   width: 208px;
+  margin-left: 120px;
 }
 .portfolio-buttons-layout {
   display: flex;
@@ -318,9 +318,6 @@ body {
   border: 1px solid rgba(142, 143, 153, 1);
   border-radius: 4px;
 }
-.customers-icons:hover {
-  color: #404bbf;
-}
 .img-heading {
   font-size: 20px;
   line-height: 1.2;
@@ -335,7 +332,6 @@ body {
 }
 .footer-background {
   background-color: var(--navyblue-background-and-heading-color);
-  width: 1440px;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -353,6 +349,9 @@ body {
   font-weight: 800;
   font-family: "Raleway", sans-serif;
   text-decoration: none;
+}
+.footer-flex {
+  display: flex;
 }
 .footer-paragraph {
   font-size: 16px;
