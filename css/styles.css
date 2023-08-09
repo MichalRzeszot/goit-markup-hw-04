@@ -332,7 +332,8 @@ body {
   background-color: var(--primary-brand, #4d5ae5);
   padding: 8px;
 }
-.background-icon-ft:hover {
+.background-icon-ft:hover,
+.background-icon-ft:focus {
   background-color: rgba(49, 208, 170, 1);
 }
 .icon-ft-wrap {
