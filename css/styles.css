@@ -339,6 +339,10 @@ body {
   background-color: var(--primary-brand, #4d5ae5);
   padding: 12px;
 }
+.svg-size {
+  width: 24px;
+  height: 24px;
+}
 .background-icons-tm:hover,
 .background-icons-tm:focus {
   background-color: rgba(64, 75, 191, 1);
