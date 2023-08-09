@@ -322,7 +322,8 @@ body {
   border: 1px solid #8e8f99;
 }
 .icon-Client:hover {
-  fill: var(--orderservice-and-logospan-color);
+  fill: var(--portfolio-button);
+  outline-color: var(--portfolio-button);
 }
 .background-icon-ft {
   width: 40px;
