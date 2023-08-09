@@ -318,6 +318,23 @@ body {
   border: 1px solid rgba(142, 143, 153, 1);
   border-radius: 4px;
 }
+.icon-Client-1:hover {
+  fill: #404bbf;
+}
+.background-icon-ft {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand, #4d5ae5);
+  padding: 8px;
+}
+.background-icon-ft:hover {
+  background-color: rgba(49, 208, 170, 1);
+}
+.icon-ft-wrap {
+  display: flex;
+  justify-content: center;
+}
 .img-heading {
   font-size: 20px;
   line-height: 1.2;
