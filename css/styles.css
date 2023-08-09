@@ -323,7 +323,7 @@ body {
 }
 .icon-Client:hover {
   fill: var(--portfolio-button);
-  outline-color: var(--portfolio-button);
+  border-color: var(--portfolio-button);
 }
 .background-icon-ft {
   width: 40px;
@@ -331,6 +331,17 @@ body {
   border-radius: 50%;
   background-color: var(--primary-brand, #4d5ae5);
   padding: 8px;
+}
+.background-icons-tm {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-brand, #4d5ae5);
+  padding: 12px;
+}
+.background-icons-tm:hover,
+.background-icons-tm:focus {
+  background-color: rgba(64, 75, 191, 1);
 }
 .background-icon-ft:hover,
 .background-icon-ft:focus {
