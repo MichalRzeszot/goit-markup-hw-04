@@ -143,16 +143,15 @@ body {
   justify-content: center;
   margin-bottom: 72px;
 }
+.portfolio-image-hover {
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .portfolio-image-hover:hover {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-.portfolio-button-hover:hover,
-.portfolio-button-hover:focus {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
 }
 .logo {
   font-size: 18px;
@@ -173,10 +172,18 @@ body {
   font-weight: 500;
   text-decoration: none;
   letter-spacing: 0.32px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-menu:hover,
 .nav-menu:focus {
   color: var(--portfolio-button);
+}
+.nav-menu:active::after {
+  content: "";
+  border-bottom: 3px solid #404bbf;
+  border-radius: 2px;
 }
 .no-dots {
   display: flex;
@@ -196,6 +203,9 @@ body {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.32px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel {
   font-size: 16px;
@@ -204,6 +214,9 @@ body {
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.32px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail:hover,
 .mail:focus,
@@ -238,6 +251,9 @@ body {
   cursor: pointer;
   font-family: "Roboto";
   letter-spacing: 0.64px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-button:hover {
   background-color: var(--portfolio-button);
@@ -252,11 +268,17 @@ body {
   letter-spacing: 0.64px;
   line-height: 1.5;
   font-weight: 500;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
   color: var(--h1-and-ourteam-images-bacground-color);
   background-color: var(--portfolio-button);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
 }
 .portfoilio-text-layout {
   padding: 32px 16px;
@@ -320,6 +342,9 @@ body {
   height: 88px;
   border-radius: 4px;
   border: 1px solid #8e8f99;
+  transition-property: fill, border-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-Client:hover {
   fill: var(--portfolio-button);
@@ -331,6 +356,9 @@ body {
   border-radius: 50%;
   background-color: var(--primary-brand, #4d5ae5);
   padding: 8px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .background-icons-tm {
   width: 40px;
@@ -338,6 +366,9 @@ body {
   border-radius: 50%;
   background-color: var(--primary-brand, #4d5ae5);
   padding: 12px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-size {
   width: 24px;
